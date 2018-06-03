@@ -1,0 +1,8 @@
+# example
+Host github.com
+    HostName github.com
+    User git
+    Port 22
+    IdentityFile ~/.ssh/id_rsa_km45_github
+    IdentitiesOnly yes
+    TCPKeepAlive no
