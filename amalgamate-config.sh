@@ -12,7 +12,15 @@
 #
 
 function main() {
-  cat config.d/*
+  local files=$(ls config.d/*)
+
+  for file in ${files}; do
+    echo '#---------------------------------------'
+    echo "# ${file}"
+    echo '#---------------------------------------'
+    cat ${file}
+    echo
+  done
 }
 
 main "$@"
