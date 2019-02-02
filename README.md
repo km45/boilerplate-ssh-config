@@ -34,6 +34,8 @@ So you can use your project with "Git for Windows" by following steps:
 
 Default git installed path is `C:\Program Files\Git`.
 
+If you install git by [scoop], default installed path is `%USERPROFILE%\scoop\apps\git\current`.
+
 ```
 C:\Program Files\Git\   # git installed path
   |-- etc\ssh\
@@ -44,3 +46,6 @@ C:\Program Files\Git\   # git installed path
 ### Refer
 
 * https://stackoverflow.com/questions/9513712/git-ssh-client-for-windows-and-wrong-path-for-ssh-config-file.
+
+<!-- link -->
+[scoop]: https://github.com/lukesampson/scoop
